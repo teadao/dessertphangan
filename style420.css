@@ -3,9 +3,12 @@ body
    background-color:#000;
  }
  h1   {
-   background-color:rgba(0, 51, 51, 0.17);
+   background-color:rgba(0,51,51,0.17);
    color:rgb(255, 255, 255);
-   border:2px solid lightgray;
+   border:2,1px
+   solid lightgray;
+   border-style: double;
+   background-clip: border-box;
    text-align: center;
    font-family:fantasy;
    font-size: 200%;
@@ -52,7 +55,7 @@ body
    margin: 0;
    padding: 0;
    overflow: hidden;
-   background-color:rgb(30, 30, 30);
+   background-color:rgba(42, 48, 41, 0.4);
  }
 
  #sp8menu li  {
@@ -67,5 +70,5 @@ body
    font-size: 120%;
  }
  #sp8menu  a:hover {
-   background-color:rgb(20, 20, 20);
+   background-color:rgba(42, 48, 41, 1);
  }
