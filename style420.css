@@ -1,0 +1,68 @@
+body
+ {
+   background-color:#000;
+ }
+ h1   {color:#f3f3f3;
+   border:2px solid lightgray;
+   text-align: center;
+   font-family:fantasy;
+   font-size: 200%;
+ }
+ h2   {color:#f3f3f3;
+   font-family:comic sans ms;
+   font-size: 200%;
+   text-align: center;
+ }
+ h3   {color:#f3f3f3;
+   font-family:;
+   font-size: 120%;
+   text-align: center;
+ }
+
+ p    {color:#f3f3f3;
+   font-family:;
+   font-size: 100%;
+   text-align: center;
+ }
+ div    {color:#f3f3f3;
+   font-family:italic;
+   font-size: 120%;
+   text-align: right;
+ }
+ img  {display:block;
+   margin: auto;
+
+ }
+ #glav420{
+   text-decoration: none;
+   color: #f3f3f3;
+ }
+
+ #sale001  {
+   color:rgb(200, 200, 200);
+   font-family:courier;
+   font-size: 120%;
+    }
+
+ #sp8menu {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color:rgb(30, 30, 30);
+ }
+
+ #sp8menu li  {
+   float: right;
+ }
+ #sp8menu  a {
+   display: block;
+   color:rgb(200, 200, 200);
+   text-align: center;
+   padding: 15px;
+   text-decoration: none;
+   font-size: 120%;
+ }
+ #sp8menu  a:hover {
+   background-color:rgb(20, 20, 20);
+ }
