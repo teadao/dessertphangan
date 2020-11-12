@@ -2,11 +2,14 @@ body
  {
    background-color:#000;
  }
- h1   {color:#f3f3f3;
+ h1   {
+   background-color:rgba(5, 5, 66, 0.2);
+   color:rgb(255, 255, 255);
    border:2px solid lightgray;
    text-align: center;
    font-family:fantasy;
    font-size: 200%;
+
  }
  h2   {color:#f3f3f3;
    font-family:comic sans ms;
