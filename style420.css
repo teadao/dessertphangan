@@ -18,7 +18,111 @@ body
    border-style: solid;
    outline-style: ;
    outline-color: ;
+   outline-width: ;body
+
+ {
+   background-color:#000;
+ }
+
+ /* заголовок */
+ h1   {
+   color:rgb(255, 255, 255);
+   font-family: fantasy;
+   font-size: 200%;
+   text-align: center;
+   text-shadow: 1px 1px 3px gray;
+   background-color:rgba(0,51,51,0.2);
+   border: 1px;
+   border-color:rgba(200, 200, 200, 0.7I );
+   border-radius: 5px;
+   border-style: solid;
+   outline-style: ;
+   outline-color: ;
    outline-width: ;
+   outline-offset: ;
+ }
+ /* заголовок */
+ #glav420{
+   color: #f3f3f3;
+   text-decoration: none;
+ }
+ 
+ /* надпись под заголовком */
+  div    {
+    color:#f3f3f3;
+    font-family: 'Amatic SC', cursive;
+  }
+  /* надпись под заголовком */
+  #shrif420 {
+    font-size: 20px;
+    text-align: right;
+    font-family: 'Amatic SC', cursive;
+    font-style:;
+    margin: -20px 0 0 0;
+  }
+
+ /* названия дес */
+ h2   {color:#f3f3f3;
+   font-family: 'Amatic SC', cursive;
+   font-size: 200%;
+   text-align: center;
+   letter-spacing: 3px;
+   word-spacing: 4px;
+   font-weight: bold;
+ }
+
+/* описание */
+ p    {color:#f3f3f3;
+   font-family:'Amatic SC', cursive;
+   font-size: 130%;
+   text-align: center;
+   letter-spacing: 2px;
+   word-spacing: 4px;
+   font-weight: lighter;
+ }
+
+ img  {display:block;
+   margin: auto;
+
+ }
+
+/* цены */
+ #sale001  {
+   color:rgba(200, 200, 200, 1);
+   font-family:'Amatic SC', cursive;
+   font-size: 130%;
+   letter-spacing: 1px;
+   word-spacing: 4px;
+   font-weight: 900;
+    }
+
+/* нижняя строка */
+ #sp8menu {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color:rgba(42, 48, 41, 0.4);
+ }
+
+ #sp8menu li  {
+   float: right;
+ }
+ #sp8menu  a {
+   display: block;
+   color:rgb(200, 200, 200);
+   text-align: center;
+   padding: 15px;
+   text-decoration: none;
+   font-family: 'Amatic SC', cursive;
+   text-transform: uppercase;
+   text-shadow: 1px 1px 1px gray;
+   font-size: 140%;
+ }
+ #sp8menu  a:hover {
+   background-color:rgba(42, 48, 41, 1);
+ }
+
    outline-offset: ;
  }
  /* надпись под заголовком */
