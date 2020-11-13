@@ -9,9 +9,16 @@ body
    text-align: center;
    background-color:rgba(0,51,51,0.2);
    border: 1px;
+   border-color:invert;
+   border-radius: ;
    border-style: solid;
-   border-color:rgba(200, 200, 200, 0.7);
-   border-radius: 5px;
+   outline-style: solid;
+   outline-color:rgba(200, 200, 200, 0.7);
+   outline-width: 2px;
+   outline-offset: ;
+
+
+
 
  }
  h2   {color:#f3f3f3;
