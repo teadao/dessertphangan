@@ -1,21 +1,21 @@
 body
 
  {
-   background-color:#000;
+   background-color:rgba(0,0,0,1);
  }
 
  /* заголовок */
- h1   {
-   color:rgb(255, 255, 255);
+ h1  {
+   color:rgba(255, 255, 255, 1);
    font-family: fantasy;
-   font-size: 200%;
+   font-size: 2em;
    text-align: center;
    text-shadow: 1px 1px 3px gray;
    background-color:rgba(0,51,51,0.2);
    border: 1px;
-   border-color:rgba(200, 200, 200, 0.7I );
-   border-radius: 5px;
    border-style: solid;
+   border-color:rgba(200, 200, 200, 0.7);
+   border-radius: 5px;
    outline-style: ;
    outline-color: ;
    outline-width: ;
@@ -23,43 +23,40 @@ body
  }
  /* заголовок */
  #glav420{
-   color: #f3f3f3;
+   color: rgba(255, 255, 255, 1);
    text-decoration: none;
  }
 
- /* надпись под заголовком */
-  div    {
-    color:#f3f3f3;
-    font-family: 'Amatic SC', cursive;
-  }
   /* надпись под заголовком */
   #shrif420 {
-    font-size: 20px;
-    text-align: right;
+    color:rgba(225, 225, 225, 1);
     font-family: 'Amatic SC', cursive;
+    font-size: 1.70em;
+    text-align: right;
     margin: -20px 0 0 0;
   }
 
- /* названия дес */
+ /* названия */
  h2   {
-   text-align: center;
-   color:#f3f3f3;
+   color:rgba(255, 255, 255, 1);
    font-family: 'Amatic SC', cursive;
-   font-size: 200%;
-   font-weight: bold;
+   font-size: 2.25em;
+   text-align: center;
    letter-spacing: 3px;
    word-spacing: 4px;
 
  }
 
 /* описание */
- p    {color:#f3f3f3;
+ p    {
+   color:rgba(255, 255, 255, 1);
+   font-family:'Amatic SC', cursive;
+   font-size: 1.3em;
+   font-weight: 700;
    text-align: center;
    letter-spacing: 2px;
    word-spacing: 4px;
-   font-family:'Amatic SC', cursive;
-   font-size: 130%;
-   font-weight: 700;
+
  }
 
  img  {display:block;
@@ -71,10 +68,10 @@ body
  #sale001  {
    color:rgba(200, 200, 200, 1);
    font-family:'Neucha', cursive;
-   font-size: 130%;
+   font-size: 1.3em;
+   font-weight: 700;
    letter-spacing: 3px;
    word-spacing: 4px;
-   font-weight: 15px;
    line-height: 30px;
     }
 
@@ -86,21 +83,23 @@ body
    overflow: hidden;
    background-color:rgba(42, 48, 41, 0.4);
  }
-
+/* нижняя строка */
  #sp8menu li  {
    float: right;
  }
+ /* нижняя строка */
  #sp8menu  a {
    display: block;
-   color:rgb(200, 200, 200);
-   text-align: center;
-   padding: 15px;
-   text-decoration: none;
+   color:rgba(200, 200, 200, 1);
    font-family: 'Amatic SC', cursive;
+   font-size: 1.4em;
+   text-align: center;
+   text-decoration: none;
    text-transform: uppercase;
    text-shadow: 1px 1px 1px gray;
-   font-size: 140%;
+   padding: 15px;
  }
+ /* нижняя строка */
  #sp8menu  a:hover {
-   background-color:rgba(42, 48, 41, 1);
+   background-color:rgba(040, 040, 040, 1);
  }
