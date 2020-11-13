@@ -6,7 +6,7 @@ body
  h1   {
    color:rgb(255, 255, 255);
    font-family: fantasy;
-   font-size: 300%;
+   font-size: 200%;
    text-align: center;
    text-shadow: 1px 1px 3px gray;
    background-color:rgba(0,51,51,0.2);
