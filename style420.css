@@ -3,12 +3,12 @@ body
    background-color:#000;
  }
  h1   {
-    color:rgb(255, 255, 255);
+   color:rgb(255, 255, 255);
    font-family:fantasy;
    font-size: 200%;
    text-align: center;
-   background-color:rgba(0,51,51,0.2);
    text-shadow: 1px 1px 3px gray;
+   background-color:rgba(0,51,51,0.2);
    border: 1px;
    border-color:rgba(200, 200, 200, 0.7);
    border-radius: 5px;
@@ -17,7 +17,6 @@ body
    outline-color: ;
    outline-width: ;
    outline-offset: ;
-
  }
  h2   {color:#f3f3f3;
    font-family:comic sans ms;
@@ -37,16 +36,24 @@ body
  }
  div    {color:#f3f3f3;
    font-family:italic;
-   font-size: 120%;
-   text-align: right;
+
  }
  img  {display:block;
    margin: auto;
 
  }
  #glav420{
-   text-decoration: none;
    color: #f3f3f3;
+   text-decoration: none;
+
+
+
+ }
+ #shrif420 {
+   font-size: 120%;
+   text-align: right;
+   font-family:"Courier New", Courier, monospace;
+
  }
 
  #sale001  {
