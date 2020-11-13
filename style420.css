@@ -3,6 +3,8 @@ body
  {
    background-color:#000;
  }
+
+ /* заголовок */
  h1   {
    color:rgb(255, 255, 255);
    font-family: fantasy;
@@ -19,48 +21,61 @@ body
    outline-width: ;
    outline-offset: ;
  }
+ /* надпись под заголовком */
+  div    {
+    color:#f3f3f3;
+    font-family: 'Amatic SC', cursive;
+  }
+
+ /* названия дес */
  h2   {color:#f3f3f3;
    font-family: 'Amatic SC', cursive;
    font-size: 200%;
    text-align: center;
  }
 
+/* описание */
  p    {color:#f3f3f3;
    font-family:'Amatic SC', cursive;
-   font-size: 140%;
+   font-size: 130%;
    text-align: center;
+   letter-spacing: 2px;
+   word-spacing: 4px;
+   font-weight: 5px;
  }
 
- div    {
-   color:#f3f3f3;
-   font-family: 'Amatic SC', cursive;
- }
  img  {display:block;
    margin: auto;
 
  }
+
+ /* заголовок */
  #glav420{
    color: #f3f3f3;
    text-decoration: none;
-
-
-
  }
+
+
+ /* надпись под заголовком */
  #shrif420 {
    font-size: 20px;
    text-align: right;
    font-family: 'Amatic SC', cursive;
    font-style:;
    margin: -20px 0 0 0;
-
  }
 
+/* цены */
  #sale001  {
    color:rgba(200, 200, 200, 0.9);
    font-family:'Amatic SC', cursive;
-   font-size: 140%;
+   font-size: 130%;
+   letter-spacing: 2px;
+   word-spacing: 4px;
+   font-weight: 5px;
     }
 
+/* нижняя строка */
  #sp8menu {
    list-style-type: none;
    margin: 0;
