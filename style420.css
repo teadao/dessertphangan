@@ -20,6 +20,9 @@ body
    outline-color: ;
    outline-width: ;
    outline-offset: ;
+   position: -webkit-sticky;
+   position: sticky;
+   top: 0;
  }
  /* заголовок */
  #glav420{
@@ -34,6 +37,9 @@ body
     font-size: 1.70em;
     text-align: right;
     margin: -20px 0 0 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
   }
 
  /* названия */
@@ -44,8 +50,7 @@ body
    text-align: center;
    letter-spacing: 3px;
    word-spacing: 4px;
-
- }
+}
 
 /* описание */
  p    {
@@ -56,13 +61,14 @@ body
    text-align: center;
    letter-spacing: 2px;
    word-spacing: 4px;
+}
 
- }
-
- img  {display:block;
+ img  {
+   max-width: 100px;
+   display:block;
    margin: auto;
 
- }
+}
 
 /* цены */
  #sale001  {
@@ -73,7 +79,7 @@ body
    letter-spacing: 3px;
    word-spacing: 4px;
    line-height: 30px;
-    }
+}
 
 /* нижняя строка */
  #sp8menu {
@@ -82,24 +88,27 @@ body
    padding: 0;
    overflow: hidden;
    background-color:rgba(42, 48, 41, 0.4);
- }
+}
+
+/* нижняя строка*/
+#sp8menu li  {
+  float: right;
+}
+
 /* нижняя строка */
- #sp8menu li  {
-   float: right;
- }
- /* нижняя строка */
- #sp8menu  a {
-   display: block;
-   color:rgba(200, 200, 200, 1);
-   font-family: 'Amatic SC', cursive;
-   font-size: 1.4em;
-   text-align: center;
-   text-decoration: none;
-   text-transform: uppercase;
-   text-shadow: 1px 1px 1px gray;
-   padding: 15px;
- }
- /* нижняя строка */
- #sp8menu  a:hover {
-   background-color:rgba(040, 040, 040, 1);
- }
+#sp8menu  a:hover {
+  background-color:rgba(040, 040, 040, 1);
+}
+
+/* нижняя строка */
+#sp8menu  a {
+  color:rgba(200, 200, 200, 1);
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.4em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px gray;
+  display: block;
+  padding: 15px;
+}
