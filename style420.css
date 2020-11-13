@@ -37,9 +37,9 @@ body
     font-size: 1.70em;
     text-align: right;
     margin: -20px 0 0 0;
-    position: -webkit-sticky;
+ /* position: -webkit-sticky;
     position: sticky;
-    top: 83px;
+    top: 83px;*/
   }
 
  /* названия */
