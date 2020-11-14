@@ -102,14 +102,16 @@ body
    margin: 0;
    padding: 0;
    overflow: hidden;
-   background-color:rgba(42, 48, 41, 0.4);
+   background-color:rgba(42, 48, 41, 1);
+   position: fixed;
+   bottom: 0;
+   width: 100%;
 }
 
 /* нижняя строка*/
 #sp8menu li  {
   float: right;
 }
-
 /* нижняя строка */
 #sp8menu  a:hover {
   background-color:rgba(040, 040, 040, 1);
