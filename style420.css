@@ -37,15 +37,30 @@ body
 
   /* надпись под заголовком */
   #shrif420 {
-    text-align: right;
     color:rgba(225, 225, 225, 1);
+    text-align: right;
     font-family: 'Amatic SC', cursive;
-    font-size: 1.55em;
+    font-size: 1.35em;
     margin: -30px 0 0 0;
+    word-spacing: 3px;
 /*  position: -webkit-sticky;
     position: sticky;
     top: 83px;*/
   }
+  /*языковая панель*/
+  h4 {
+    color:rgba(255, 255, 255, 1);
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.20em;
+    text-align: left;
+    margin: -25px 0 0 0;
+    word-spacing: 6px;
+  }
+  #lang420 {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+  }
+
    /* названия */
  h2   {
    color:rgba(255, 255, 255, 1);
