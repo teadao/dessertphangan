@@ -70,9 +70,9 @@ nav {
 
 .intro-img {
     background-image: url(img/original/main/pavlova_main.jpg);
-    margin-right: 80px;
     width: 960px;
     height: 647px;
+    margin-right: 60px;
 }
 
 .intro-text {
