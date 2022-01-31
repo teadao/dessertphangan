@@ -69,7 +69,7 @@ nav {
 }
 
 .intro-img {
-    background-image: url(img/main/main.jpg);
+    background-image: url(img/original/main/pavlova_main.jpg);
     margin-right: 80px;
     width: 960px;
     height: 647px;
@@ -79,7 +79,7 @@ nav {
     font-family: 'Comforter Brush', cursive;
     color: #f9f6e3;
     position: left;
-    padding-left: 70px;
+    padding-left: 130px;
     font-size: 76px;
     padding-top: 76px;
 }
