@@ -33,127 +33,72 @@
         <section class="gallery_wrapper">
             <!-- The grid: four columns -->
             <div class="gallery_des_name">
-                <h2 id="napoleon">Napoleon</h2>
+                <h2>Our Sweet Creations </h2>
             </div>
+
+            <!-- The expanding image container -->
+            <!-- Modal Window for Expanded Image -->
+            <div id="galleryModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="gallery_expandedImg" class="modal-content">
+                <div id="gallery_imgtext"></div>
+            </div>
+
+
             <div class="gallery_row">
+
                 <div class="gallery_column">
-                    <img src="img/original/napoleon/napoleon.jpg" alt="Napoleon" onclick="myFunction(this);">
+                    <img src="img/original/milk_girl/milk_girl_meringue.jpg" alt="Napoleon" onclick="myFunction(this);">
                 </div>
+
+
+
+
+
+
+                <div class="gallery_column">
+                    <img src="img/original/cheesecake/cheesecake_hpb15.jpg" alt="Cheesecake"
+                        onclick="myFunction(this);">
+                </div>
+
                 <div class="gallery_column">
                     <img src="img/original/napoleon/napoleon_2.jpg" alt="Napoleon" onclick="myFunction(this);">
                 </div>
+
                 <div class="gallery_column">
                     <img src="img/original/napoleon/napoleon_pink_decor.jpg" alt="Napoleon" onclick="myFunction(this);">
                 </div>
+
                 <div class="gallery_column">
                     <img src="img/original/napoleon/napoleon_slice.jpg" alt="Napoleon" onclick="myFunction(this);">
                 </div>
-            </div>
-            <!-- The expanding image container -->
-            <div class="gallery_container">
-                <!-- Close the image -->
-                <span onclick="this.parentElement.style.display='none'" class="gallery_closebtn">&times;</span>
+                <div class="gallery_column">
+                    <img src="img/original/milk_girl/milk_girl_cut.jpg" alt="Milk Girl" onclick="myFunction(this);">
+                </div>
+                <div class="gallery_column">
+                    <img src="img/original/milk_girl/milk_girl_winter_forest.jpg" alt="Milk Girl"
+                        onclick="myFunction(this);">
+                </div>
+                <div class="gallery_column">
+                    <img src="img/original/pavlova/pavlova_cut_passion.jpg" alt="Pavlova" onclick="myFunction(this);">
+                </div>
+                <div class="gallery_column">
+                    <img src="img/original/pavlova/pavlova_cut_raspderries.jpg" alt="Pavlova"
+                        onclick="myFunction(this);">
+                </div>
+                <div class="gallery_column">
+                    <img src="img/original/pavlova/pavlova_cut_passion_1.jpg" alt="Pavlova" onclick="myFunction(this);">
+                </div>
+                <div class="gallery_column">
+                    <img src="img/original/cheesecake/cheesecake_hb_bluber.jpg" alt="Cheesecake"
+                        onclick="myFunction(this);">
+                </div>
+                <div class="gallery_column">
+                    <img src="img/original/cheesecake/cheesecake_new_moon.jpg" alt="Cheesecake"
+                        onclick="myFunction(this);">
+                </div>
 
-                <!-- Expanded image -->
-                <img id="gallery_expandedImg" style="width:100%">
-                <!-- Image text -->
-                <div id="gallery_imgtext"></div>
-            </div>
         </section>
-
-        <section class="gallery_wrapper">
-            <!-- The grid: four columns -->
-            <div class="gallery_des_name">
-                <h2 id="milk_grl">Milk Girl</h2>
-            </div>
-            <div class="gallery_row">
-                <div class="gallery_column">
-                    <img src="img/original/milk_girl/milk_girl_cut.jpg" alt="Milk Girl" onclick="myFunction1(this);">
-                </div>
-                <div class="gallery_column">
-                    <img src="img/original/milk_girl/milk_girl_meringue.jpg" alt="Milk Girl" onclick="myFunction1(this);">
-                </div>
-                <div class="gallery_column">
-                    <img src="img/original/milk_girl/milk_girl_winter_forest.jpg" alt="Milk Girl" onclick="myFunction1(this);">
-                </div>
-            </div>
-            <!-- The expanding image container -->
-            <div class="gallery_container">
-                <!-- Close the image -->
-                <span onclick="this.parentElement.style.display='none'" class="gallery_closebtn">&times;</span>
-
-                <!-- Expanded image -->
-                <img id="gallery_expandedImg1" style="width:100%">
-
-                <!-- Image text -->
-                <div id="gallery_imgtext1"></div>
-            </div>
-        </section>
-
-        <section class="gallery_wrapper">
-            <!-- The grid: four columns -->
-            <div class="gallery_des_name">
-                <h2 id="pavlova">Pavlova</h2>
-            </div>
-            <div class="gallery_row">
-                <div class="gallery_column">
-                    <img src="img/original/pavlova/pavlova_cut_passion.jpg" alt="Pavlova" onclick="myFunction2(this);">
-                </div>
-                <div class="gallery_column">
-                    <img src="img/original/pavlova/pavlova_cut_raspderries.jpg" alt="Pavlova" onclick="myFunction2(this);">
-                </div>
-                <div class="gallery_column">
-                    <img src="img/original/pavlova/pavlova_cut_passion_1.jpg" alt="Pavlova" onclick="myFunction2(this);">
-                </div>
-
-
-            </div>
-            <!-- The expanding image container -->
-            <div class="gallery_container">
-                <!-- Close the image -->
-                <span onclick="this.parentElement.style.display='none'" class="gallery_closebtn">&times;</span>
-
-                <!-- Expanded image -->
-                <img id="gallery_expandedImg2" style="width:100%">
-
-                <!-- Image text -->
-                <div id="gallery_imgtext2"></div>
-            </div>
-        </section>
-
-
-        <section class="gallery_wrapper">
-            <!-- The grid: four columns -->
-            <div class="gallery_des_name">
-                <h2 id="cheesecake">Cheesecake</h2>
-            </div>
-            <div class="gallery_row">
-                <div class="gallery_column">
-                    <img src="img/original/cheesecake/cheesecake_hb_bluber.jpg" alt="Cheesecake" onclick="myFunction2(this);">
-                </div>
-                <div class="gallery_column">
-                    <img src="img/original/cheesecake/cheesecake_hpb15.jpg" alt="Cheesecake" onclick="myFunction2(this);">
-                </div>
-                <div class="gallery_column">
-                    <img src="img/original/cheesecake/cheesecake_new_moon.jpg " alt="Cheesecake" onclick="myFunction2(this);">
-                </div>
-
-
-            </div>
-            <!-- The expanding image container -->
-            <div class="gallery_container">
-                <!-- Close the image -->
-                <span onclick="this.parentElement.style.display='none'" class="gallery_closebtn">&times;</span>
-
-                <!-- Expanded image -->
-                <img id="gallery_expandedImg2" style="width:100%">
-
-                <!-- Image text -->
-                <div id="gallery_imgtext2"></div>
-            </div>
-        </section>
-
-
     </main>
     <footer>
         <div class="wrapper">
